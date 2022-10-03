@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(64, 68, 66);
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+}
+.head span{
+    font-size: larger;
+    font-style: italic;
+}
+.navbar{
+    height: 620px;
+    width: 200px;
+    background-color: rgb(112, 94, 204);
+    color: wheat;
+    justify-content: first baseline;
+}
+.navbar a {
+    font-size: x-large;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    display: inline-flex;
+    text-decoration: none;
+    text-shadow: 5px 5px 4px rgb(196, 25, 25);
+}
+iframe{
+    margin-left: 200px;
+    height: 610px;
+    width: 1145px;
+    display: grid;
+    position: absolute;
+}
+.navbar a:hover{
+    background-color: aqua;
+}
